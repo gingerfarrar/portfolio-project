@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #9966cc;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --font-family: "Nunito", sans-serif;
@@ -36,6 +36,15 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+}
+
+.hero {
+  padding-top: 20px;
+  background-color: #f8c8dcbf;
 }
 
 .navigation-links {
