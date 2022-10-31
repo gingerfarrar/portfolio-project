@@ -2,11 +2,12 @@
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --font-family: "Nunito", sans-serif;
 }
 
 body {
-  margin: 100px auto;
-  font-family: "Nunito", sans-serif;
+  margin: auto;
+  font-family: var(--font-family);
 }
 
 h1,
