@@ -44,6 +44,7 @@ p {
 
 .hero {
   padding-top: 20px;
+  padding-bottom: 20px;
   background-color: #f8c8dcbf;
 }
 
@@ -61,7 +62,7 @@ p {
   text-transform: capitalize;
 }
 
-.contact-link {
+.work-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -87,7 +88,7 @@ p {
   margin: 10px;
 }
 
-.email-link {
+.contact-link {
   display: flex;
   justify-content: center;
   color: var(--primary-color);
@@ -95,7 +96,7 @@ p {
   text-decoration: none;
 }
 
-.email-link:hover {
+.contact-link:hover {
   text-decoration: underline;
 }
 .fashion-link {
